@@ -1,0 +1,110 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Ubuntu, Roboto, 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Cantarell, 'Helvetica Neue', sans-serif;
+  --gray: #505256;
+  --blue: #0284FE;
+  --light-gray: #F1F2F4;
+  --accent-gray: #E1E4E8;
+}
+
+#navbar-container {
+  align-items: center;
+  padding: 10px 20%;
+  height: 50px;
+}
+
+.logo-small {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#navbar-subcontainer {
+  align-items: center;
+}
+
+.navbar-btn {
+  padding: 0 10px;
+  color: var(--gray);
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+#navbar-register-btn {
+  padding: 10px 10px;
+  background-color: var(--light-gray);
+  color: #505256;
+  font-size: 14px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+#hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80vh;
+}
+
+#hero-center {
+  width: 40%;
+  min-width: 400px;
+  text-align: center;
+}
+
+#hero-header {
+  font-size: 42px;
+}
+
+#hero-subtitle {
+  font-size: 17px;
+  color: var(--gray);
+}
+
+.flex-sb {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-se {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero-btn-container {
+  width: 80%;
+  max-width: 350px;
+  margin: 0 auto;
+  padding: 15px 0;
+}
+
+.major-btn-blue {
+  background-color: var(--blue);
+  color: white;
+  text-decoration: none;
+  width: 15%;
+  min-width: 140px;
+  height: 4vh;
+  min-height: 40px;
+  border-radius: 5px;
+}
+
+.major-btn-outline {
+  border: 1px solid var(--accent-gray);
+  color: var(--gray);
+  text-decoration: none;
+  width: 15%;
+  min-width: 140px;
+  height: 4vh;
+  min-height: 40px;
+  border-radius: 5px;
+}
