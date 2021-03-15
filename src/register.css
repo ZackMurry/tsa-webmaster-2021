@@ -1,0 +1,149 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Ubuntu, Roboto, 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Cantarell, 'Helvetica Neue', sans-serif;
+  --gray: #505256;
+  --blue: #0284FE;
+  --light-gray: #F1F2F4;
+  --accent-gray: #E1E4E8;
+}
+
+#navbar-container {
+  align-items: center;
+  padding: 10px 20%;
+  height: 50px;
+}
+
+.logo-small {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+a.logo-small {
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+}
+
+#navbar-subcontainer {
+  align-items: center;
+}
+
+.navbar-btn {
+  padding: 0 10px;
+  color: var(--gray);
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.flex-sb {
+  display: flex;
+  justify-content: space-between;
+}
+
+#main-content {
+  width: 80%;
+  padding: 10%;
+}
+
+@media (min-width: 1100px) {
+  #main-content {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+#register-form > div {
+  padding-bottom: 10px;
+}
+
+/* https://webdevtrick.com/material-button-with-ripple-click/ */
+#submit-btn {
+  --top: 50%;
+  --left: 50%;
+  --size: 100%;
+  --background: var(--blue);
+  --color: hsl(265, 100%, 100%);
+  --border: none;
+  color: var(--color);
+  background: var(--background);
+  border: 1px solid var(--border);
+  font-family: inherit;
+  padding: 0.6rem 1.25rem;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  overflow: hidden;
+  position: relative;
+  outline: none;
+}
+ 
+#submit-btn:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: currentColor;
+  border-radius: inherit;
+  opacity: 0;
+}
+
+#submit-btn:focus:before,
+#submit-btn:hover:before {
+  opacity: 0.1;
+}
+ 
+#submit-btn:after {
+  content: "";
+  position: absolute;
+  top: var(--top);
+  left: var(--left);
+  transform: translate(-50%, -50%);
+  width: var(--size);
+  height: var(--size);
+  background: currentColor;
+  clip-path: circle(0%);
+  opacity: 0.3;
+  border-radius: inherit;
+}
+ 
+#submit-btn:active:after {
+  clip-path: circle(100%);
+  opacity: 0;
+  transition: clip-path 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53), opacity 0.4s ease-in-out;
+  transition-delay: -0.1s, 0.5s;
+}
+
+#illustration-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#illustration {
+  width: 50vw;
+  height: 50vh;
+  max-width: 700px;
+  max-height: 700px;
+}
+
+#form-container {
+  padding: 0 125px;
+}
+
+a, a:active, a:visited, a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+#form-error {
+  max-width: 250px;
+  font-size: 12px;
+  color: var(--gray);
+}

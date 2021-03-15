@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="register.css" rel="stylesheet" />
+  <script defer>
+    function handleRegister(e) {
+      e.preventDefault()
+      console.log('register')
+      document.getElementById('form-error').innerHTML = `
+      Since this website is just a stand-in for an actual website, you can\'t create an account.
+      <a href="/index.html">Click here to return home</a>
+      .
+      `
+    }
+    window.onload = () => {
+      document.getElementById('register-form').addEventListener('submit', handleRegister, true)
+    }
+  </script>
+  <title>Televize | Register</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <div id="navbar-container" class="flex-sb">
+        <a href="/index.html" class="logo-small">televize</h3>
+        <div id="navbar-subcontainer" class="flex-se">
+            <a href="/solutions.html" class="navbar-btn">Solutions</a>
+            <a href="/pricing.html" class="navbar-btn">Pricing</a>
+            <a href="/businesses.html" class="navbar-btn">For Businesses</a>
+        </div>
+    </div>
+    
+    <!-- Main content -->
+    <div id="main-content">
+      <div id="form-container">
+        <h1>Register with Televize</h1>
+        <form id="register-form">
+          <div>
+            <input type="text" aria-label="name" placeholder="Name" />
+          </div>
+          <div>
+            <input type="email" aria-label="email" placeholder="Email" />
+          </div>
+          <button type="submit" id="submit-btn">
+            Done
+          </button>
+        </form>
+        <p id="form-error" />
+      </div>
+      <div id="illustration-container">
+        <img id="illustration" src="assets/register-illustration.svg" />
+      </div>
+    </div>
+  
+</body>
+</html>
