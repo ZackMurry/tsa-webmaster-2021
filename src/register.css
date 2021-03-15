@@ -55,6 +55,13 @@ a.logo-small {
   }
 }
 
+@media (max-width: 600px) {
+  #navbar-subcontainer {
+    display: none;
+  }
+}
+
+
 #register-form > div {
   padding-bottom: 10px;
 }
@@ -134,12 +141,11 @@ a.logo-small {
 }
 
 #form-container {
-  padding: 0 125px;
+  padding: 0 5%;
 }
 
-a, a:active, a:visited, a:hover {
+#return-home, #return-home:active, #return-home:visited, #return-home:hover {
   color: black;
-  text-decoration: underline;
 }
 
 #form-error {

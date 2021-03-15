@@ -53,6 +53,10 @@ a.logo-small {
     display: flex;
     justify-content: space-between;
   }
+
+  #navbar-subcontainer {
+    display: none;
+  }
 }
 
 #illustration-container {

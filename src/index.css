@@ -45,13 +45,14 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 90%;
+  margin: 0 auto;
   height: 80vh;
 }
 
 #hero-center {
   width: 40%;
-  min-width: 400px;
+  min-width: 350px;
   text-align: center;
 }
 
@@ -131,6 +132,12 @@ html, body {
 
   #three-square-section-container > div {
     margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 725px) {
+  #navbar-minor-wrapper {
+    display: none;
   }
 }
 
