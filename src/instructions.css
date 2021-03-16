@@ -5,113 +5,131 @@ html, body {
   --light-gray: #F1F2F4;
   --accent-gray: #E1E4E8;
 }
-.navbar{
+
+*, ::after, ::before {
+	box-sizing: border-box;
+}
+
+.navbar {
 	height: 70px;
 }
-.jumbotron-fluid{
-	font-style: ubuntu;
-	height: 350px
-}
-.jumb-top{
-background: white;
-}
-.btn-primary{
+
+.btn-primary {
 	background: rbg(16,52,166);
 	outline: none;
 }
-.jumbo-second
-{
-	height: 400px;
-	background: green;
-}
-.container-custom-top{
+
+.container-custom-top {
 	margin-left: 20%
 }
-.help-list{
+
+.help-list {
 	margin-left: 70%;
 	margin-bottom: 10%;
 }
-.how-it-works{
+
+.how-it-works {
 	margin-top: 3%;
 	text-align: center;
 	font-size: 55px;
 }
-.phone-pics{
+
+.phone-pics {
 	width: 50%;
 	margin-left: 25%;
 	margin-top: 1%;
 }
-.first-left{
+
+.first-left {
 	border-right: 3px solid #CCCCCC;
 	height: 700px;
 }
-.first-right{
+
+.first-right {
 	height: 700px;
 }
-.second-left{
+
+.second-left {
 	border-right: 3px solid #CCCCCC;
 	height: 700px;
 }
-.second-right{
+
+.second-right {
 	height: 700px;
 }
-.third-left{
+
+.third-left {
 	border-right: 3px solid #CCCCCC;
 	height: 700px;
 }
-.third-right{
+
+.third-right {
 	height: 700px;
 }
-.get-started{
+
+.get-started {
 	margin-left: 4%;
 }
-.get-started-ttl{
+
+.get-started-ttl {
 	margin-top: 19%;
 	font-size: 41px;
 }
-.get-started-info{
+
+.get-started-info {
 	margin-top: 2.5%;
 	font-size: 17px;
 }
-.second-started{
+
+.second-started {
 	margin-right: 4%;
 }
-.second-started-ttl{
+
+.second-started-ttl {
 	margin-top: 19%;
 	font-size: 41px;
 }
-.second-started-info{
+
+.second-started-info {
 	margin-top: 2.5%;
 	font-size: 17px;
 }
-.third-started{
-margin-left: 4%;
+
+.third-started {
+	margin-left: 4%;
 }
-.third-started-ttl{
+
+.third-started-ttl {
 	margin-top: 21%;
 	font-size: 41px;
 }
-.first-pic{
+
+.first-pic {
 	margin-top: 4%;
 	margin-left: 15%;
 }
-.second-pic{
+
+.second-pic {
 	margin-top: 4%;
 	margin-left: 20%;
 }
-.third-pic{
+
+.third-pic {
 	margin-top: 4%;
 	margin-left: 15%;
 }
-.app-store{
+
+.app-store {
 	margin-top: 2%;
 	margin-left: 27%;
 	margin-bottom: 10%;
 }
+
 #navbar-container {
   align-items: center;
   padding: 10px 20%;
   height: 50px;
+	margin-top: 20px;
 }
 
 .logo-small {
@@ -140,6 +158,7 @@ margin-left: 4%;
   border-radius: 5px;
   font-weight: bold;
 }
+
 .flex-sb {
   display: flex;
   justify-content: space-between;
@@ -150,3 +169,40 @@ margin-left: 4%;
   justify-content: space-evenly;
 }
 
+#header-container {
+	margin: 100px 20%;
+	min-width: 400px;
+}
+
+@media (max-width: 725px) {
+  #navbar-minor-wrapper {
+    display: none;
+  }
+}
+
+@media (min-width: 600px) {
+	.flex-wrap {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.column-6 {
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+}
+
+
+
+#subtitle {
+	font-size: 22px;
+	font-weight: 500;
+	margin-top: 10px;
+}
+
+a.logo-small {
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+}
