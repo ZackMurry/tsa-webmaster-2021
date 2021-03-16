@@ -108,4 +108,45 @@ margin-left: 4%;
 	margin-left: 27%;
 	margin-bottom: 10%;
 }
+#navbar-container {
+  align-items: center;
+  padding: 10px 20%;
+  height: 50px;
+}
+
+.logo-small {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#navbar-subcontainer {
+  align-items: center;
+}
+
+.navbar-btn {
+  padding: 0 10px;
+  color: var(--gray);
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+#navbar-register-btn {
+  padding: 10px 10px;
+  background-color: var(--light-gray);
+  color: #505256;
+  font-size: 14px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.flex-sb {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-se {
+  display: flex;
+  justify-content: space-evenly;
+}
 
