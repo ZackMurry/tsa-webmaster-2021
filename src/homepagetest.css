@@ -1,0 +1,111 @@
+html, body {
+  font-family: Ubuntu, Roboto, 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Cantarell, 'Helvetica Neue', sans-serif;
+  --gray: #505256;
+  --blue: #0284FE;
+  --light-gray: #F1F2F4;
+  --accent-gray: #E1E4E8;
+}
+.navbar{
+	height: 70px;
+}
+.jumbotron-fluid{
+	font-style: ubuntu;
+	height: 350px
+}
+.jumb-top{
+background: white;
+}
+.btn-primary{
+	background: rbg(16,52,166);
+	outline: none;
+}
+.jumbo-second
+{
+	height: 400px;
+	background: green;
+}
+.container-custom-top{
+	margin-left: 20%
+}
+.help-list{
+	margin-left: 70%;
+	margin-bottom: 10%;
+}
+.how-it-works{
+	margin-top: 3%;
+	text-align: center;
+	font-size: 55px;
+}
+.phone-pics{
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 1%;
+}
+.first-left{
+	border-right: 3px solid #CCCCCC;
+	height: 700px;
+}
+.first-right{
+	height: 700px;
+}
+.second-left{
+	border-right: 3px solid #CCCCCC;
+	height: 700px;
+}
+.second-right{
+	height: 700px;
+}
+.third-left{
+	border-right: 3px solid #CCCCCC;
+	height: 700px;
+}
+.third-right{
+	height: 700px;
+}
+.get-started{
+	margin-left: 4%;
+}
+.get-started-ttl{
+	margin-top: 19%;
+	font-size: 41px;
+}
+.get-started-info{
+	margin-top: 2.5%;
+	font-size: 17px;
+}
+.second-started{
+	margin-right: 4%;
+}
+.second-started-ttl{
+	margin-top: 19%;
+	font-size: 41px;
+}
+.second-started-info{
+	margin-top: 2.5%;
+	font-size: 17px;
+}
+.third-started{
+margin-left: 4%;
+}
+.third-started-ttl{
+	margin-top: 21%;
+	font-size: 41px;
+}
+.first-pic{
+	margin-top: 4%;
+	margin-left: 15%;
+}
+.second-pic{
+	margin-top: 4%;
+	margin-left: 20%;
+}
+.third-pic{
+	margin-top: 4%;
+	margin-left: 15%;
+}
+.app-store{
+	margin-top: 2%;
+	margin-left: 27%;
+	margin-bottom: 10%;
+}
+
