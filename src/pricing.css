@@ -54,6 +54,9 @@ a.logo-small {
     justify-content: space-between;
   }
 
+}
+
+@media (max-width: 600px) {
   #navbar-subcontainer {
     display: none;
   }
@@ -89,8 +92,15 @@ a.logo-small {
   max-width: 600px;
 }
 
-#pricing-minor {
+.pricing-minor {
   color: var(--gray);
   line-height: 1.55em;
   letter-spacing: 0.035em;
+}
+
+#price-large {
+  font-size: 42px;
+  text-align: center;
+  color: var(--blue);
+  text-decoration: underline;
 }
