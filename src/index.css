@@ -6,7 +6,6 @@ html, body {
   --blue: #0284FE;
   --light-gray: #F1F2F4;
   --accent-gray: #E1E4E8;
-  padding-bottom: 100px;
 }
 
 #navbar-container {
@@ -212,4 +211,17 @@ html, body {
   font-size: 18px;
   width: 70%;
   padding-left: 25px;
+}
+
+footer {
+  margin-top: 200px;
+  padding-bottom: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+#footer-wrapper > *, #footer-wrapper > a:visited {
+  color: var(--gray);
+  text-decoration: none;
+  text-align: center;
 }
