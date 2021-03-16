@@ -6,6 +6,7 @@ html, body {
   --blue: #0284FE;
   --light-gray: #F1F2F4;
   --accent-gray: #E1E4E8;
+  padding-bottom: 100px;
 }
 
 #navbar-container {
@@ -17,13 +18,6 @@ html, body {
 .logo-small {
   font-size: 20px;
   font-weight: 600;
-}
-
-a.logo-small {
-  font-size: 20px;
-  font-weight: 600;
-  text-decoration: none;
-  color: black;
 }
 
 #navbar-subcontainer {
@@ -38,9 +32,55 @@ a.logo-small {
   text-decoration: none;
 }
 
+#navbar-register-btn {
+  padding: 10px 10px;
+  background-color: var(--light-gray);
+  color: #505256;
+  font-size: 14px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+#hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 
+  width: 90%;
+  margin: 0 auto;
+  height: 80vh;
+}
+
+#hero-center {
+  width: 40%;
+  min-width: 350px;
+  text-align: center;
+}
+
+#hero-header {
+  font-size: 42px;
+}
+
+#hero-subtitle {
+  font-size: 17px;
+  color: var(--gray);
+}
+
 .flex-sb {
   display: flex;
   justify-content: space-between;
+}
+
+.flex-se {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #main-content {
