@@ -47,7 +47,7 @@ html, body {
   align-items: center;
   width: 90%;
   margin: 0 auto;
-  height: 90vh;
+  height: 80vh;
 }
 
 #hero-center {
@@ -114,7 +114,7 @@ html, body {
 @media (min-width: 992px) {
   #three-square-section-container {
     padding: 10%;
-    padding-top: 5%;
+    padding-top: 2%;
     margin-top: 25px;
     display: grid;
     column-gap: 25px;
@@ -187,7 +187,7 @@ html, body {
 }
 
 .section-header {
-  margin-top: 10%;
+  margin-top: -6%;
   width: 100%;
   text-align: center;
   font-size: 40px;
